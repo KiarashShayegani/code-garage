@@ -16,3 +16,16 @@ GROUP BY state, gender
 ORDER BY state
 ) 
 AS maximum_customers;
+
+-- If we want to see the state in previous query too(CTE & sub-query):
+WITH female_customers AS (
+    SELECT state, gender, COUNT(customer_id) as counter
+    FROM customers
+    WHERE age >= 18
+    AND (gender = 'Female')
+    GROUP BY state, gender
+)
+
+SELECT state, gender, counter
+FROM female_customers
+WHERE counter = (SELECT MAX(counter) FROM female_customers);
