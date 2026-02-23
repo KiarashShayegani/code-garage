@@ -11,20 +11,6 @@ You know your dad's garage? The one with:
 
 I wrote these when I was probably reviewing, messing around to solve a problem without help of AI, or times when I felt like I'm in my genius mode, which didn't last long..
 
-## ⚠️ GARAGE WARNING
-
-
->ENTER AT YOUR OWN RISK.
-
->- The lighting is bad in here
->- There might be spiders
->- Stacked boxes might fall on you
->- Nothing is where it should be
->- If you touch it, you bought it
-
->You have been warned dude..
-
-
 ## 📦 Inventory
 
 ```
