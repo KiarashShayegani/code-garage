@@ -15,3 +15,16 @@ def logChecker(response):
 
 print('======= Logger =======\n')
 logChecker(response)
+
+"""
+result:
+
+======= Logger =======
+
+Successfull connections:
+1 --> ok | 3 --> ok | 
+Failed connections:
+2 --> error | 
+
+** Process exited - Return Code: 0 **
+"""
